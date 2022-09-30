@@ -1,0 +1,23 @@
+CURSO DE GIT
+El dia 21/09/2022 he rotomado el curso de git en el canal de pildorasInformaticas en el primer video aprendi 
+a como instalar Git.
+Git es una herramienta poderosa que todo informatico debe de conocer, la funcion de git es dar seguimiento a los proyectos 
+que se va realizando y no perderlos realizando copias de seguridad en el repositorio local y cuando sea el momento de alzarlo 
+a la nube hacerlo correctamente mediante comandos.
+El primer comando aprendido en el curso es el comando git init
+Este comando se debe de realizar en donde se encuentra el proyecto clic derecho y ejecutar Git Bash Here
+Se hace de esta manera para que Git pueda detectar la raiz de la ubicacion del proyecto.
+El segundo comando es git status -s, este comando se utiliza para ver todos los archivos que se encuentra dentro de la carpeta raiz
+El tercer comando es git add que se utiliza para agregar dentro del repositorio local y hacer seguimiento git add mas el nombre del archivo
+git commit -m es el comando que nos permitira dar nombre al repositorio Ejemplo git commit -m "Ejemplo del nombre"
+git log --oneline es un comando que nos ayudara a ver todas las ramificaciones que hemos estado realizando en el proyecto
+DIA 26/09/2022
+En el curso vimos que con el comando git add . nos permitira seleccionar todos los archivos que queramos alzar a futuro
+Luego otro comando git commit am " " que nos permitira comitear con una descripcion 
+Si solo quisieramos comitear el archivo lo hariamos de la siguiente manera git commit -m " "
+Para poder alzar un repositorio local en la nube copiamos el link de la app lo pegamos en el comando local
+DIA 29/09/2022
+git pull es para traer los cambios de la nube hasta el local 
+Gracias a las tags nos permiten especificar versiones 
+Para alzar las tags en git lo haremos con el comando de git push --tags alza la version en la nube
+Para clonar un proyecto de remoto copiamos el link y pegamos en la raiz ejecutamos el comando y escribimos git clone y pegamos el link que hay en la nube
