@@ -21,3 +21,7 @@ git pull es para traer los cambios de la nube hasta el local
 Gracias a las tags nos permiten especificar versiones 
 Para alzar las tags en git lo haremos con el comando de git push --tags alza la version en la nube
 Para clonar un proyecto de remoto copiamos el link y pegamos en la raiz ejecutamos el comando y escribimos git clone y pegamos el link que hay en la nube
+DIA 30/09/2022 RAMAS O BRANCH
+Para crear una rama usamos el comando git branch y le damos un nombre sin el "" y posteriormente estaremos trabajando en paralelo en el proyecto
+Para movernos en una rama lo hacemos con el comando git checkout seguido del nombre de la rama
+Para fusionar el proyecto de una rama con el principal lo haremos con el comando de git merge y el nombre de la rama 
